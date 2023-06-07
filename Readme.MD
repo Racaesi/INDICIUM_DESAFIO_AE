@@ -18,7 +18,7 @@ A certificação indica que o profissional:
 
 A empresa contratou Adventure Works (AW) é uma indústria de bicicletas em franco crescimento que se orgulha de possuir mais de 500 produtos distintos, 20.000 clientes e 31.000 pedidos. Para manter seu ritmo de crescimento e se diferenciar da concorrência, a Adventure Works quer utilizar seus dados de forma estratégica, norteando suas decisões para se tornar uma empresa data driven. A diretoria da Adventure Works já listou uma série de perguntas que ela quer responder através de cruzamentos dos dados, e que devem guiar o desenvolvimento das tabelas de fatos e dimensões do data warehouse. Para iniciar o projeto e obter resultados rápidos, a opção foi iniciar pela área de vendas (sales), mas algumas tabelas de outras áreas podem ser necessárias para conseguir as informações desejadas. Em seu diagnóstico inicial, você identificou alguns sistemas que a Adventure Works utiliza e que geram dados relevantes para o negócio e que, em algum momento, devem fazer parte da infraestrutura de dados:
 
-<div> align="center"
+<div align="center">
 <img src="![image](https://github.com/Racaesi/INDICIUM_DESAFIO_AE/assets/114450210/e86fd61d-eb2f-47df-b7d6-9d043c669728)" width="150px" />
 </div>
 
@@ -31,7 +31,6 @@ A empresa contratou Adventure Works (AW) é uma indústria de bicicletas em fran
 - d) Quais as 5 melhores cidades em valor total negociado por produto, tipo de cartão, motivo de venda, data de venda, cliente, status, cidade, estado e país?
 - e) Qual o número de pedidos, quantidade comprada, valor total negociado por mês e ano (dica: gráfico de série de tempo)?
 - f) Qual produto tem a maior quantidade de unidades compradas para o motivo de venda “Promotion”?
-
 
 ### ⚙️ Descrição dos dados
 A Adventure Works possui um banco de dados transacional (PostgreSQL) que armazena os dados de suas diferentes áreas. Esses dados estão distribuídos em 68 tabelas divididas em 5 schemas: HR (recursos humanos), sales (vendas), production (produção) e purchasing (compras).
