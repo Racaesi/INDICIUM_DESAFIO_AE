@@ -18,7 +18,8 @@ A certificação indica que o profissional:
 
 A empresa contratou Adventure Works (AW) é uma indústria de bicicletas em franco crescimento que se orgulha de possuir mais de 500 produtos distintos, 20.000 clientes e 31.000 pedidos. Para manter seu ritmo de crescimento e se diferenciar da concorrência, a Adventure Works quer utilizar seus dados de forma estratégica, norteando suas decisões para se tornar uma empresa data driven. A diretoria da Adventure Works já listou uma série de perguntas que ela quer responder através de cruzamentos dos dados, e que devem guiar o desenvolvimento das tabelas de fatos e dimensões do data warehouse. Para iniciar o projeto e obter resultados rápidos, a opção foi iniciar pela área de vendas (sales), mas algumas tabelas de outras áreas podem ser necessárias para conseguir as informações desejadas. Em seu diagnóstico inicial, você identificou alguns sistemas que a Adventure Works utiliza e que geram dados relevantes para o negócio e que, em algum momento, devem fazer parte da infraestrutura de dados:
 
-<img src="![image](https://github.com/Racaesi/INDICIUM_DESAFIO_AE/assets/114450210/e86fd61d-eb2f-47df-b7d6-9d043c669728)" width="150px" />
+![image](https://github.com/Racaesi/INDICIUM_DESAFIO_AE/assets/114450210/e86fd61d-eb2f-47df-b7d6-9d043c669728)
+
 
 ### 🔧 Perguntas para serem respondidas:
 
