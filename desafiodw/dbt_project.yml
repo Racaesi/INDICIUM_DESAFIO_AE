@@ -40,6 +40,7 @@ models:
       +materialized: view
       +schema: staging
 
+# Utilizado para carregar os dados no DW.
 seeds:
   adventureworks:
     source:

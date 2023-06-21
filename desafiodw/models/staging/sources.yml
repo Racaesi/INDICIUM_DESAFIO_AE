@@ -3,17 +3,23 @@ version: 2
 sources:
   - name: raw-data
     schema: dev_raphael
-    description: "Dados que serão trabalhados na Staging Area"
+    description: "Dados pré-processados, definidos de acordo com o Diagrama de Modelagem para criação das Tabelas Fato e Dimensão."
     tables:
+      # Dimensão Endereço (Address)
       - name: address
       - name: countryregion
+      - name: stateprovince
+      # Dimensão Pagamento (Cartão de Crédito)        
       - name: creditcard
+      # Dimensão Produto
+      - name: product
+      # Dimensão Cliente
       - name: customer
       - name: person
-      - name: product
-      - name: salesorderdetail
-      - name: salesorderheader
+      - name: store
+      # Dimensão Razão-Vendas (Pedidos)
       - name: salesorderheadersalesreason
       - name: salesreason
-      - name: stateprovince
-      - name: store
+      # Fato Vendas      
+      - name: salesorderdetail
+      - name: salesorderheader
