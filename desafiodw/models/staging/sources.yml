@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw-data
+    schema: dev_raphael
+    description: "Dados que serão trabalhados na Staging Area"
+    tables:
+      - name: address
+      - name: countryregion
+      - name: creditcard
+      - name: customer
+      - name: person
+      - name: product
+      - name: salesorderdetail
+      - name: salesorderheader
+      - name: salesorderheadersalesreason
+      - name: salesreason
+      - name: stateprovince
+      - name: store
