@@ -7,6 +7,7 @@ with fct_orders_final AS (
         , order_locations_creditcard.creditcard_fk
         , product_reason.unitprice
         , product_reason.orderqty
+        , product_reason.unitpricediscount
         , order_locations_creditcard.orderdate
         , product_reason.reason_name_final
         , order_locations_creditcard.order_status_name
