@@ -40,6 +40,7 @@ WITH customers AS (
         , sales_order_detail.productid
         , sales_order_detail.orderqty
         , sales_order_detail.unitprice
+        , sales_order_detail.unitpricediscount
         , ifnull(reasons.reason_name_aggregated,'Not indicated') as reason_name_final
     FROM {{ ref('stg_sales_order_detail') }} as sales_order_detail
     LEFT JOIN products ON sales_order_detail.productid = products.productid
